@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Handjet:wght@200;300;500&family=Josefin+Sans&family=Oswald:wght@200&family=Permanent+Marker&family=Poppins:wght@300&family=REM:ital,wght@1,100&display=swap" rel="stylesheet">
+
+    <title>Profile Updater</title>
+</head>
+<body class="">
+
+    <nav class=" flex h-[70px] justify-center content-between  bg-gradient-to-r from-emerald-500 to-emerald-300 ">
+    
+
+        
+        <label class=" prashant-nav-name mt-5 text-white font-semibold text-2xl " for="text">Prashant's Protfolio</label>
+        
+
+        <div class="oo-f-12 ml-[490px] mt-6 font-semibold text-white" >
+            
+            <ul class=" nav-btns flex flex-row-reverse   ">
+                <li class="mr-9 cursor-pointer hover:text-blue-950 ">Contact Me</li> 
+                <li class="mr-9 cursor-pointer hover:text-blue-950">Projects</li>
+                <li class="mr-9 cursor-pointer hover:text-blue-950">About</li>
+                <li class="mr-9 cursor-pointer hover:text-blue-950">Services</li>
+                <li class="mr-9 cursor-pointer hover:text-blue-950">Home</li>
+            </ul>
+        </div>
+
+    
+    </nav>
+</main>
+    <section class="grid grid-cols-2">
+        <div class="text mt-[220px] ml-[120px] text-4xl font-medium text-white">
+            Hi, My name is <span class="text-emerald-400">Prashant</span><br>
+           <p class="mt-1"> and I am a passionate</p>
+           <span class="text-emerald-400 " id="element"></span><br>
+             <div class="mt-8 "> 
+         <button class=" text-sm bg-blue-900 ont-medium p-3 rounded-md hover:bg-blue-950 "><a href="#">Download resume</a></button>
+         <button class=" text-sm bg-white font-medium text-black p-3 rounded-md hover:bg-yellow-50"><a href="#">View GitHub</a></button>
+            </div>
+        </div>
+        <div class=" mt-[95px] mr-7">
+            
+            <img src="images\pro-2.jpg" class="rounded-full w-[80%] " alt="">
+        </div>
+    </section>
+    
+
+    <main>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['<i>Programming</i> ', 'WEB Development'],
+              typeSpeed: 80,
+            });
+          </script>
+</body>
+</html>
