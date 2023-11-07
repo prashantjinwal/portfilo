@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif; */
+}
+body{
+    background-color: #0f1234;
+}
+nav{
+    background-color: #29b082;
+    font-family: 'Poppins', sans-serif; 
+}
+.oo-f-12 ul li:hover{
+    border-bottom: 2px solid #0f1234;
+    font-weight: bold;
+    
+}
+@media (max-width: 78.4375em) {
+    .nav-btns{
+        display: none;
+    }
+
+    .prashant-nav-name{
+        display: flex;
+        justify-content: left;
+    }
+
+    
+}
